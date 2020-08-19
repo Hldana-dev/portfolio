@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 46.093 55.416">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #7510f7;
+        stroke-width: 3px;
+      }
+       .cls-1:hover {
+        fill: none;
+        stroke: #7000f7;
+        stroke-width: 3px;
+      }
+    </style>
+  </defs>
+  <g id="Group_48" data-name="Group 48" transform="translate(-1368.407 -6395.68)">
+    <path id="Path_7" data-name="Path 7" class="cls-1" d="M1382,6417.025V6392.8l21.307-14.814,21.786,14.814v24.229l-21.786,12.808Z" transform="translate(-12.093 19.518)"/>
+    <image id="icons8_Facebook_F_96px_1" width="40" height="40" transform="translate(1371.407 6403)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAABmJLR0QA/wD/AP+gvaeTAAADSklEQVRYCe2YTWsTURSGzx1GJeAXSq1a6E4Eo2ipKxF05b9wo7gS3FnEVTYFjVB/hht/g7jWRTeOC/EDkq6sIIqLpk5yPZdUyOrQZPS9dyZvmZuZ9szkved5MtPJiPCHBEiABEiABEiABEiABEiABEiABEiABEhgXgi4uja6cbm/NCzlxkj8aibS9iJntZcFHYdEfC7ijuj21MtasQxlohOdeo7RDniy+ulYtnPgjk7gbln6tq4l0FL4YXNihL9O/JrwZi0EePGu296673Z8R0RO6mjMkryAjXb/xDPpv9DP9K3GUJ9oJGkB6xc/L5bev9L5XtDRyCVLtavOTZ8f9PlLnV9j4WtvkqyA1tfeQ/3nej1MsskjSQHPr3w57px71GTwf3tLUsBumd/TCR7V0fglSQHO+9uNJ7/XYHICnp7vhW+0l/bm1/hVcgIkl6uNpz7RYHLfAzLvVrzT+5+JSU67qUd/yJzrDp288TLaGoxavzvFqV/Tvg9i/+QEKPyVio0XrcHg2oOP535WfB/I4eldgpwsVux8vS7wQ5/pCfBS6fZzKO5taKwuIz0BUk2AH7rvdYEf5pmigMNhYrOO3dNLP2Y9NsZxyQnQx86Vbgw6r10ZA+SsmckJmLWRuh5HAZHNUQAFRCYQOZ5nAAVEJhA5nmcABUQmEDmeZ0BkAfrFEzuDbrunj+uxmftI+7ZWLC/sY79/vgvPgDHSd+MV/pUCxsyL8Qr/SgHKXK+J73UVZaEAxe4yxzNAOURbyjznGRCNvsj2480z27HyeQkSiXb5CdIpgALC5yDeiHkHFLqe+zMg5h0QBSiBmHdAGi/wZ0Eh1BpVnxXpM53kerL6nftLkAUHUaMABGUjgwIMOIgSBSAoGxkUYMBBlCgAQdnIoAADDqJEAQjKRgYFGHAQJQpAUDYyKMCAgyhRAIKykUEBBhxEiQIQlI0MCjDgIEoUgKBsZFCAAQdRogAEZSODAgw4iBIFICgbGRRgwEGUKABB2cigAAMOokQBCMpGBgUYcBAlCkBQNjIowICDKFEAgrKRQQEGHESJAhCUjQwKMOAgShSAoGxkUIABB1GiAARlI4MCDDgskQAJkAAJkAAJkAAJkAAJkMD/IPAHDR9vhuud4dYAAAAASUVORK5CYII="/>
+  </g>
+</svg>

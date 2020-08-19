@@ -1,0 +1,748 @@
+<!DOCTYPE html>
+<html class="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TADESSE AKELE | Personal Portfolio</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+    <!-- <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script> -->
+    <!-- <link rel="stylesheet" href="./node_modules/bulma/css/bulma.min.css"> -->
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="./node_modules/font-awesome/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="./styles/slick.css">
+    <link rel="stylesheet" href="./styles/animate.css">
+
+
+
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/mobile.css">
+    <style>
+        /* .hero.is-medium {} */
+    </style>
+</head>
+
+<body>
+
+
+    <div id="display" class="wow fadeInUp" data-wow-duration="3s">
+        <nav class="navbar is-mobile" role="navigation">
+            <div class="container">
+                <div class="navbar-brand">
+                    <a href="index.html" class="navbar-item wow fadeInLeft" data-wow-duration="3s" data-wow-delay="2s">
+                        <img src="./assets/images/logo.svg" alt="Logo" width="200">
+                    </a>
+                    <a href="#" class="navbar-burger burger wow slideInRight" data-wow-duration="1s" data-wow-delay="2s" role="button" aria-label="menu"
+                        aria-expanded="false" data-target="navContent">
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                    </a>
+                </div>
+                <div class="navbar-menu wow fadeInDown" data-wow-duration="1s" data-wow-delay="1s" id="navContent">
+                    <div class="navbar-center">
+                    </div>
+                    <div class="navbar-end">
+                        <a id="display-link" href="#display" class="navbar-item link-item active wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s"
+                            onclick="isActiveClass(event); hideNavbarOnMobileSizeClick();">
+                            <i class="fa fa-home on-collapse"></i> &nbsp; HOME &nbsp;
+                        </a>
+                        <a id="about-link" href="#about-section" class="navbar-item link-item wow fadeInRight" data-wow-duration="1s" data-wow-delay="1s"
+                            onclick="isActiveClass(event); hideNavbarOnMobileSizeClick();">
+                            <i class="fa fa-info-circle on-collapse"></i> &nbsp; ABOUT &nbsp;
+                        </a>
+                        <a id="what-i-do-link" href="#what-i-do-section" class="navbar-item link-item wow fadeInLeft" data-wow-duration="1s" data-wow-delay="2s"
+                            onclick="isActiveClass(event); hideNavbarOnMobileSizeClick();">
+                            <i class="fa fa-info-circle on-collapse"></i> &nbsp; WHAT I DO? &nbsp;
+                        </a>
+                        <a id="portfolio-link" href="#portfolio-section" class="navbar-item link-item wow fadeInRight" data-wow-duration="1s" data-wow-delay="2s"
+                            onclick="isActiveClass(event); hideNavbarOnMobileSizeClick();">
+                            <i class="fa fa-list on-collapse"></i> &nbsp; PORTFOLIO &nbsp;
+                        </a>
+                        <a id="resume-link" href="#resume-section" class="navbar-item link-item wow fadeInLeft" data-wow-duration="1s" data-wow-delay="3s"
+                            onclick="isActiveClass(event); hideNavbarOnMobileSizeClick();">
+                            <i class="fa fa-briefcase on-collapse"></i> &nbsp; RESUME &nbsp;
+                        </a>
+                        <a id="contact-link" href="#contact-section-title" class="navbar-item link-item wow fadeInRight" data-wow-duration="1s" data-wow-delay="3s"
+                            onclick="isActiveClass(event); hideNavbarOnMobileSizeClick();">
+                            <i class="fa fa-briefcase on-collapse"></i> &nbsp; CONTACT &nbsp;
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Show Case Area -->
+        <div class="hero is-primary" id="display-hero">
+            <div class="hero-body">
+                <div class="columns showcase">
+                    <div class="column is-1"></div>
+                    <div class="column who-am-i">
+                        <div class="title name wow fadeInLeft" data-wow-duration="3s" data-wow-delay="2s">TADESSE AKELE</div>
+                        <div class="subtitle description wow fadeInRight" data-wow-duration="3s" data-wow-delay="2s">
+                            <span>Frontend Web Developer</span>
+                            <span>
+                                <span class="separator">|</span> Web Designer</span>
+                            <span>
+                                <span class="separator">|</span> UI/UX Desinger</span>
+                        </div>
+
+                        <div class="columns showcase-buttons">
+                            <div class="column wow flipInY" data-wow-duration="3s" data-wow-delay="3s">
+                                <a href="#resume-section" class="btn-resume button is-light is-medium is-fullwidth is-outlined">
+                                    <i class="fa fa-briefcase"></i> &nbsp; RESUME
+                                </a>
+                            </div>
+                            <div class="column wow flipInX" data-wow-duration="3s" data-wow-delay="3s">
+                                <a href="#portfolio-section" class="btn-portfolio button is-light is-medium is-fullwidth has-text-center">
+                                    <i class="fa fa-list"></i> &nbsp; PORTFOLIO
+                                </a>
+                            </div>
+                            <div class="column is-2"></div>
+                        </div>
+                    </div>
+                    <div class="column my-profile-pic">
+                        <div class="shadow">
+                            <div class="profile-picture">
+                                <div class="profile-group wow fadeInRight" data-wow-duration="3s" data-wow-delay="3s">
+                                    <figure class="figure-profile-picture">
+                                        <img src="./assets/images/avatar.svg" alt="">
+                                    </figure>
+                                    <div class="social-media-icons">
+                                        <div class="social-media-group">
+                                            <a href="https://github.com/Hldana-dev/portfolio" target="_blank" class=" wow flipInY" data-wow-delay="1s">
+                                                <i class="social myPointer fa fa-github"> </i> &nbsp;</a>
+                                            <a href="https://www.facebook.com/tadesse.akele.98" target="_blank" class=" wow flipInY" data-wow-delay="4s">
+                                                <i class="social myPointer fa fa-facebook-square"></i> &nbsp;</a>
+                                            <a href="https://app.slack.com/client/TEVFUBX46/CRE448ALA" target="_blank" class=" wow flipInY" data-wow-delay="4s">
+                                                <i class="social myPointer fa fa-slack"></i> &nbsp;</a>
+                                            <a href="https://twitter.com/Nathan37525784" target="_blank" class=" wow flipInY" data-wow-delay="4s">
+                                                <i class="social myPointer fa fa-twitter"></i> &nbsp;</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <section class="hero is-medium wow flipInX" data-wow-duration="3s" data-wow-delay="1s" id="about-section">
+        <div class="hero-body">
+            <div class="title has-text-primary section-title wow fadeInDown" data-wow-duration="3s" data-wow-delay="2s">ABOUT
+                <span class="has-text-dark"> ME</span>
+            </div>
+
+            <div class="container">
+                <div class="columns">
+                    <div class="column is-1"></div>
+                    <div class="column is-4 wow bounceInLeft" data-wow-duration="3s" data-wow-delay="2s">
+                        <img class="about-image" src="./assets/images/imac-apple-mockup-app-38544.jpeg" alt="">
+                    </div>
+                    <div class="column about-description wow bounceInRight" data-wow-duration="3s" data-wow-delay="2s">
+                        <h2 class="subtitle is-4 has-text-primary">Let me tell you a little about my self...</h2>
+                        <p class="bio">
+                            I am
+                            <span class="is-bold">Tadesse Akele</span>, and I am a
+                            <span class="is-bold">web developer</span>,
+                            <span class="is-bold">web designer</span> and
+                            <span class="is-bold">UI/UX Designer</span> based in Addis Ababa, Ethiopia. After graduating from university in
+                            <span class="is-bold">Computer Science</span> i am currently working on some personal projects and teaching myself
+                            latest technologies that are related to web development and UI/UX design. I really enjoy converting
+                            real world problems into interesting websites and awsome applications.
+
+                        </p>
+                    </div>
+
+                    <div class="column is-1"></div>
+
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+
+    <!-- Scroll Top Button -->
+    <div class="scroll-top wow fadeInUp infinite" data-wow-duration="2s">
+        <a href="#display-hero">
+            <div class="button is-dark">
+                <i class="fa fa-arrow-left"></i>
+            </div>
+        </a>
+    </div>
+
+    <!-- What I Do Section -->
+    <section class="hero is-medium is-primary" id="what-i-do-section">
+        <div class="hero-body">
+            <div class="title has-text-white section-title wow fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">WHAT
+                <span class="has-text-dark">I DO</span>
+            </div>
+
+            <div class="container">
+                <div class="columns">
+                    <div class="column is-1"></div>
+                    <div class="column">
+                        <div class="card wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">
+                            <figure class="what-i-do-card-icon">
+                                <img src="./assets/images/what-i-do-icons/web-development.png" alt="Web Development">
+                            </figure>
+                            <div class="what-i-do-card-title  is-primary">Frontend Web Development</div>
+                            <div class="what-i-do-card-body">
+                                <p>
+                                    Building beautiful websites, amazing and fully responsive web applications using JavaScript, SASS, React, Angular, Bootstrap
+                                    and other related technologies.
+                                </p>
+                            </div>
+                            <div class="what-i-do-card-footer">
+                                <a href="#portfolio-section">2 Project on Progress</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="card wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.5s">
+                            <figure class="what-i-do-card-icon">
+                                <img src="./assets/images/what-i-do-icons/web-design.png" alt="Web Design">
+                            </figure>
+                            <div class="what-i-do-card-title  is-primary">Static Web Designing</div>
+                            <div class="what-i-do-card-body">
+                                <p>
+                                    I design simple, user-friendly, beautiful, fully responsive and well functional websites by using HTML5, CSS3, Vanilla JavaScript,
+                                    Materialize, Bootstrap and other related technologies.
+                                </p>
+                            </div>
+                            <div class="what-i-do-card-footer">
+                                <a href="#portfolio-section">
+                                    1 Project so far</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="card wow fadeInUp" data-wow-duration="1s" data-wow-delay="2s">
+                            <figure class="what-i-do-card-icon">
+                                <img src="./assets/images/what-i-do-icons/ui-ux-design.png" alt="UI / UX Design">
+                            </figure>
+                            <div class="what-i-do-card-title  is-primary">UI/UX Design</div>
+                            <div class="what-i-do-card-body">
+                                <p>
+                                    I design simple, user-friendly, beautiful and responsive websites (also considering users experience) by using Figma, Adobe
+                                    XD, Adobe Photoshop and other related technologies.
+                                </p>
+                            </div>
+                            <div class="what-i-do-card-footer">
+                                <a href="#portfolio-section">2 Projects so far</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column is-1"></div>
+
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+
+    <!-- Portfolio Section -->
+    <section class="hero is-medium" id="portfolio-section">
+        <div class="hero-body">
+            <div class="container">
+                <div class="title is-text-center has-text-primary section-title wow fadeInDown">
+                    PORTFOLIO</div>
+                <div class="columns">
+                    <div class="column is-1"></div>
+                    <div class="column">
+                        <div class="tabs is-centered wow fadeInUp">
+                            <ul style="border-bottom:1px solid lightgray;">
+                                <li class="tab-link is-active wow fadeInRight" data-wow-duration="2s" id="all">
+                                    <a>All</a>
+                                </li>
+                                <li id="web-development-tab" class="tab-link wow fadeInRight" data-wow-duration="2s" onclick="openTab(event, 'web-development')">
+                                    <a>Web Development</a>
+                                </li>
+                                <li id="web-design-tab" class="tab-link wow fadeInRight" data-wow-duration="2s" onclick="openTab(event, 'web-design')">
+                                    <a>Web Design</a>
+                                </li>
+                                <li id="ui-design-tab" class="tab-link wow fadeInRight" data-wow-duration="2s" onclick="openTab(event, 'ui-design')">
+                                    <a>UI/UX Design </a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div id="portfolio">
+                            <div class="tab-content ui-design grid-item wow fadeInUp" data-wow-duration="2s">
+                                <figure class="image">
+                                    <img src="./assets/images/my-personal-project.png" alt="">
+                                </figure>
+                                <div class="overlay">
+                                    <span class="title is-4 has-text-white">Personal Portfolio
+                                        <span class="has-text-primary is-size-7"> - UI Design</span>
+                                    </span>
+                                    <p class="subtitle is-6">
+                                        This is my own presonal portfolio website design. It is designed using Adobe XD CC.
+                                    </p>
+                                    <div class="columns">
+                                        <div class="column">
+                                            <!-- <button class="button is-primary is-rounded is-outlined">
+                                                <i class="fa fa-dribbble"></i> &nbsp; View on Dribbble</button> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-content ui-design grid-item wow fadeInUp" data-wow-duration="2s" data-wow-delay="1s">
+                                <figure class="image">
+                                    <img src="./assets/images/vue-clone-design.png" alt="">
+                                </figure>
+                                <div class="overlay">
+                                    <span class="title is-4 has-text-white">Vue App Clone
+                                        <span class="has-text-primary is-size-7"> - UI Design</span>
+                                    </span>
+                                    <p class="subtitle is-6">
+                                        I designed the Vue js Documentation mobile application using Adobe XD CC.
+                                    </p>
+                                    <div class="columns">
+                                        <div class="column">
+                                            <!-- <button class="button is-primary is-rounded is-outlined">
+                                                <i class="fa fa-dribbble"></i> &nbsp; View on Dribbble</button> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-content web-design grid-item wow fadeInUp" data-wow-duration="2s" data-wow-delay="2s">
+                                <figure class="image">
+                                    <img src="./assets/images/my-personal-project.png" alt="">
+                                </figure>
+                                <div class="overlay">
+                                    <span class="title is-4 has-text-white">Personal Portfolio
+                                        <span class="has-text-primary is-size-7"> - Web Design</span>
+                                    </span>
+                                    <p class="subtitle is-6">
+                                        This is my own presonal portfolio website. It is developed using HTML5, CSS3, JavaScript, Bulma CSS ... and it is live on
+                                        the internet.
+                                    </p>
+
+                                    <div class="has-addons">
+                                        <button class="button is-fullwidth is-primary is-outlined">
+                                            <a class="has-text-white" target="_blank" href="https://github.com/Hldana-dev/portfolio">
+                                                <i class="fa fa-github"></i> &nbsp; View On GitHub
+                                            </a>
+                                        </button>
+                                        <a href="http://127.0.0.1:5500/index.html" target="_blank" class="button is-fullwidth is-light is-outlined">
+                                            <i class="fa fa-play"></i> &nbsp; Live Prevew</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-content web-design grid-item wow fadeInUp" data-wow-duration="2s" data-wow-delay="3s">
+                                <figure class="image">
+                                    <img src="./assets/images/nest1.png" alt="">
+                                </figure>
+                                <div class="overlay">
+                                    <span class="title is-4 has-text-white">Travel Website
+                                        <span class="has-text-primary is-size-7"> - Web Design</span>
+                                    </span>
+                                    <p class="subtitle is-6">
+                                        This website is an Ethiopian travel website for called Nest Ethiopia Tours, and i designed this website with Wordpress, Elementor and some other plugins.
+                                    </p>
+
+                                    <div class="has-addons">
+                                        <a href="https://nestethiopiatours.com/" target="_blank" class="button is-fullwidth is-light is-outlined">
+                                            <i class="fa fa-play"></i> &nbsp; Live Prevew</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column is-1"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+
+    <section class="hero is-medium is-primary" id="resume-section">
+        <div class="hero-body">
+            <div class="title has-text-white section-title wow fadeInDown">RESUME</div>
+
+            <div class="container">
+                <div class="columns">
+                    <div class="column is-1"></div>
+                    <div class="column is-10">
+                        <div class="columns">
+                            <div class="column is-3 education">
+                                <div class="media">
+                                    <figure class="media-left">
+                                        <span class="icon has-text-white wow rotateIn" data-wow-duration="3s">
+                                            <i class="fa fa-graduation-cap fa-2x"></i>
+                                        </span>
+                                    </figure>
+                                    <div class="media-content">
+                                        <div class="title is-4 wow fadeInDown" data-wow-duration="2s" data-wow-delay="1s">Education</div>
+                                        <div class="subtitle is-7 is-italic wow fadeInLeft">
+                                            - Continously Learning
+                                        </div>
+                                        <div class="subtitle is-6 wow fadeInLeft" data-wow-delay="2s">
+                                            2019
+                                            <br>
+                                            <strong> Bachlors of Computer Science</strong>
+                                            <br> Unity University
+                                        </div>
+                                        <div class="subtitle is-6 wow fadeInLeft" data-wow-delay="3s">
+                                            <div class="menu">
+                                                2017 - Present
+                                                <br>
+                                                <strong> Online Courses From </strong>
+                                                <ul class="menu-list">
+                                                    <li> Direct Websites
+                                                        <ul>
+                                                            <li>Udemy</li>
+                                                            <li>Lynda.com</li>
+                                                            <li>Programming With Mosh</li>
+                                                        </ul>
+                                                    </li>
+                                                    <li> Youtube Channels
+                                                        <ul>
+                                                            <li>Traversy Media</li>
+                                                            <li>Academind</li>
+                                                            <li>Kevin Powell</li>
+                                                            <li>Design Course</li>
+                                                            <li>Dev Tips</li>
+                                                            <li>Online Tutorials</li>
+                                                        </ul>
+                                                    </li>
+                                                    <li>And Many More</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="column is-1"></div>
+                            <div class="column skill-set">
+                                <div class="media">
+                                    <figure class="media-left">
+                                        <span class="icon has-text-white wow rotateIn" data-wow-duration="3s">
+                                            <i class="fa fa-pencil fa-2x"></i>
+                                        </span>
+                                    </figure>
+                                    <div class="media-content">
+                                        <div class="title is-4 wow fadeInDown" data-wow-duration="2s" data-wow-delay="1s">Skill Set</div>
+                                        <div class="subtitle is-7 is-italic wow fadeInLeft">
+                                            - What i can do
+                                        </div>
+                                        <div class="columns">
+                                            <div class="column">
+                                                <div class="subtitle skill-set-title is-6 wow fadeInLeft" data-wow-duration="2s" data-wow-delay="1s">
+                                                    <span>
+                                                        <strong> FRONTEND</strong>
+                                                    </span>
+                                                    <br> HTML5
+                                                    <br> CSS3 (Sass)
+                                                    <br> JavaScript ES6
+                                                    <br> TypeScript
+                                                    <br> Angular JS
+                                                    <br> React JS
+                                                    <br> Bootstrap 4
+                                                    <br> Bulma CSS
+                                                    <br> Materialize CSS
+                                                    <br> Wordpress
+                                                    <br> Elementor
+                                                    <br> JQuery
+                                                    <br> JSON
+                                                </div>
+                                                <div class="subtitle skill-set-title is-6 wow fadeInLeft" data-wow-duration="2s" data-wow-delay="2s">
+                                                    <span>
+                                                        <strong> BACKEND</strong>
+                                                    </span>
+                                                    <br> Node JS
+                                                    <br> Express JS
+                                                    <br> Koa JS (Learning)
+                                                    <br> PHP
+                                                </div>
+                                            </div>
+                                            <div class="column">
+                                                <div class="subtitle skill-set-title is-6 wow fadeInRight" data-wow-duration="2s" data-wow-delay="1s">
+                                                    <span>
+                                                        <strong> DESIGN</strong>
+                                                    </span>
+                                                    <br> Adobe Photoshop
+                                                    <br> Adobe Illustrator
+                                                    <br> Adobe XD
+                                                    <br> Figma (on progress)
+                                                </div>
+                                                <div class="subtitle skill-set-title is-6 wow fadeInRight" data-wow-duration="2s" data-wow-delay="2s">
+                                                    <span>
+                                                        <strong> DATABASES</strong>
+                                                    </span>
+                                                    <br> MongoDB
+                                                    <br> My Sql
+                                                    <br> MS Sql Server
+                                                </div>
+                                                <div class="subtitle skill-set-title is-6 wow fadeInRight" data-wow-duration="2s" data-wow-delay="2.5s">
+                                                    <div class="menu">
+                                                        <ul class="menu-list">
+                                                            <li>
+                                                                <strong> MISCELLANEOUS</strong>
+                                                                <ul>
+                                                                    <li>Git</li>
+                                                                    <li>Axios</li>
+                                                                    <li>Trello</li>
+                                                                    <li>Postman</li>
+                                                                    <li>Docker</li>
+                                                                    <li>Contentful</li>
+                                                                    <li>Netlify</li>
+                                                                </ul>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column is-1"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Slider Section -->
+    <section class="hero is-small wow fadeInUp" data-wow-duration="2s" id="slider-section">
+        <div class="hero-body">
+            <div class="container">
+                <div class="columns">
+                    <div class="column is-12 technologies-slider">
+                        <div class="columns slider1 has-text-centered">
+                            <div class="column">
+                                <div>
+                                    <h1 class="title is-1">
+                                        <i class="fa fa-github"></i>
+                                    </h1>
+                                </div>
+                            </div>
+                            <div class="column">
+                                <div>
+                                    <h1 class="title is-1">
+                                        <i class="fa fa-html5 has-text-info"></i>
+                                    </h1>
+                                </div>
+                            </div>
+                            <div class="column">
+                                <div>
+                                    <h1 class="title is-1">
+                                        <i class="fa fa-css3 has-text-warning"></i>
+                                    </h1>
+                                </div>
+                            </div>
+                            <div class="column">
+                                <div>
+                                    <h1 class="title is-1">
+                                        <i class="fa fa-gitlab has-text-danger"></i>
+                                    </h1>
+                                </div>
+                            </div>
+                            <div class="column">
+                                <div>
+                                    <h1 class="title is-1">
+                                        <i class="fa fa-bitbucket has-text-info"></i>
+                                    </h1>
+                                </div>
+                            </div>
+                            <div class="column">
+                                <div>
+                                    <h1 class="title is-1">
+                                        <i class="fa fa-git-square has-text-danger"></i>
+                                    </h1>
+                                </div>
+                            </div>
+                            <div class="column has-text-primary">
+                                <div>
+                                    <h1 class="title is-1">
+                                        <i class="fa fa-dribbble"></i>
+                                    </h1>
+                                </div>
+                            </div>
+                            <div class="column">
+                                <div>
+                                    <h1 class="title is-1">
+                                        <i class="fa fa-chrome"></i>
+                                    </h1>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider-buttons">
+                            <span class="prev position wow slideInLeft" data-wow-delay="2s">
+                                <i class="fa fa-chevron-left"></i>
+                            </span>
+                            <span class="next position wow slideInRight" data-wow-delay="2s">
+                                <i class="fa fa-chevron-right"></i>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+
+    <!-- Like What You See Section -->
+    <section class="hero is-primary" id="like-what-you-see-section">
+        <div class="hero-body">
+            <div class="container">
+                <div class="columns">
+                    <div class="column is-1"></div>
+                    <div class="column is-8">
+                        <div id="like-what-you-see" class="title is-1 wow slideInLeft" data-wow-duration="2s">Like What You See?</div>
+                        <div id="like-what-you-see-desc" class="subtitle is-4 wow slideInRight" data-wow-duration="2s"> Here I am, you can contact me.</div>
+                    </div>
+                    <div id="contact-me" class="column has-text-centered">
+                        <a href="#contact-section" class="button is-white is-outlined is-rounded is-large wow zoomIn" data-wow-delay="0.5s">Contact Me</a>
+                    </div>
+                    <div class="column is-1"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="hero is-medium wow flipInX" data-wow-duration="2s" id="contact-section">
+        <div class="hero-body">
+            <div class="container">
+                <div class="columns">
+                    <div class="column is-1"></div>
+                    <div class="column is-10">
+                        <div id="contact-section-title" class="title is-3 has-text-primary is-1 section-title wow zoomIn" data-wow-delay="1s">CONTACT
+                            <span class="has-text-dark"> ME</span>
+                        </div>
+                        <div class="subtitle description is-6 is-scondary wow fadeInUp" data-wow-delay="1.5s">I can help. I'm currently available for freelance work. If you have a project that you want to get
+                            started, think you need my help with something or just fancy saying hey, then get in
+                        </div>
+
+                        <div class="columns">
+                            <div class="column is-1"></div>
+                            <div class="column is-4 contact-info has-text-right wow fadeInRight" data-wow-delay="2s">
+                                <br>
+                                <br>
+                                <div>
+                                    <p class="subtitle is-6 has-text-dark has-text-weight-medium">
+                                        PHONE
+                                    </p>
+                                    <p class="subtitle is-6 has-text-primary has-text-weight-bold">+251-973-168516</p>
+                                </div>
+                                <br>
+                                <br>
+                                <div>
+                                    <p class="subtitle is-6 has-text-dark has-text-weight-medium">Email: </p>
+                                    <p class="subtitle is-6 has-text-primary has-text-weight-bold">hldana2015@gmail.com</p>
+                                </div>
+                                <br>
+                                <br>
+                                <div>
+                                    <p class="subtitle is-6 has-text-dark has-text-weight-medium">Address: </p>
+                                    <p class="subtitle is-6 has-text-primary has-text-weight-bold">Addis Ababa, Ethiopia</p>
+                                </div>
+                            </div>
+                            <div class="column is-1"></div>
+                            <div class="column wow fadeInLeft" data-wow-delay="2s">
+                                <form action="POST" data-netlify="true">
+                                    <div class="field">
+                                        <label class="label">Full Name</label>
+
+                                        <div class="control">
+                                            <input class="input" name="fullname" type="text" placeholder="Full Name">
+                                        </div>
+                                    </div>
+
+                                    <div class="field">
+                                        <div class="control">
+                                            <label class="label">Email</label>
+                                            <input class="input" class="email" type="email" placeholder="Email">
+                                        </div>
+                                    </div>
+                                    <div class="field">
+                                        <label class="label">Message</label>
+
+                                        <div class="control">
+                                            <textarea class="textarea" class="message" rows="2" placeholder="Write something..."></textarea>
+                                        </div>
+                                    </div>
+                                    <div data-netlify-recaptcha="true"></div>
+
+                                    <div class="field">
+                                        <div class="control">
+                                            <button class="button button-send is-primary is-outlined is-fullwidth" type="submit">SEND</button>
+                                        </div>
+                                    </div>
+                                </form>
+
+                            </div>
+                            <div class="column is-1"></div>
+                        </div>
+                    </div>
+                    <div class="column is-1"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer Area -->
+    <footer class="wow flipInY" data-wow-duration="2s" data-wow-delay="3s">
+        <div class="content has-background-dark has-text-centered">
+            <div class="columns">
+                <div class="column is-1"></div>
+                <div class="column wow fadeInLeft" data-wow-duration="2s" data-wow-delay="5s">
+                    <span class="title is-3 has-text-weight-medium footer-name has-text-primary">
+                        Tadesse
+                        <span class="last-name has-text-weight-light">Akele</span>
+                    </span>
+                </div>
+                <div class="column wow fadeInUp" data-wow-duration="2s" data-wow-delay="5s">
+                    <p class="copyright has-text-light">@Copyright 2019, All rights are reserved.</p>
+                </div>
+                <div class="column footer-social-media">
+                    <a href="https://www.facebook.com/tadesse.akele.98" target="_blank" class="wow fadeInRight" data-wow-duration="1s" data-wow-delay="5s">
+                        <img src="./assets/images/facebook.svg" alt="">
+                    </a>
+                    <a href="https://twitter.com/Nathan37525784" target="_blank" class="wow fadeInRight" data-wow-duration=".1s" data-wow-delay="5.3s">
+                        <img src="./assets/images/twitter.svg" alt=""> </a>
+                    <a href="" target="_blank" class="wow fadeInRight" data-wow-duration=".1s" data-wow-delay="5.5s">
+                        <img src="./assets/images/instagram.svg" alt=""> </a>
+                    <a href="https://t.me/Hzquelin2018" target="_blank" class="wow fadeInRight" data-wow-duration=".1s" data-wow-delay="5.7s">
+                        <img src="./assets/images/telegram.svg" alt=""> </a>
+                    <a href="https://app.slack.com/client/TEVFUBX46/CRE448ALA" target="_blank" class="wow fadeInRight" data-wow-duration=".1s"
+                        data-wow-delay="5.9s">
+                        <img src="./assets/images/slack.svg" alt=""> </a>
+                </div>
+                <div class="column is-1"></div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Js Dependencies -->
+    <script src="./js/jquery-1.11.0.min.js"></script>
+    <script src="./js/slick.js"></script>
+    <script src="./js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+
+    <!-- Custom Script -->
+    <script src="./js/default.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,214 @@
+/* @media(min-width: 1300px) {
+    .navbar-item img {
+        margin-left: 9.5em;
+        margin-left: -4em;
+    }
+} */
+
+@media(max-width: 1300px) {
+    .navbar-item img {
+        margin-left: -2em;
+    }
+}
+
+@media (max-width: 1215px) {
+    #portfolio {
+        grid-template-columns: 1fr 1fr;
+    }
+    #what-i-do-section .card .what-i-do-card-body {
+        font-size: .8em !important;
+        max-height: 100px;
+        overflow: scroll;
+        text-align: center !important;
+    }
+    #what-i-do-section .card .what-i-do-card-body::-webkit-scrollbar {
+        display: none;
+    }
+}
+
+@media (max-width: 1126px) {
+    .navbar-item img {
+        margin-left: -2em;
+    }
+    .title.name {
+        font-size: 1.5em;
+    }
+}
+
+@media(max-width: 1024px) {
+    .navbar {
+        background: rgba(116, 16, 247, 0.671);
+        padding-bottom: 0;
+    }
+    .navbar-item img {
+        margin-left: .5em;
+    }
+    .navbar-menu {
+        background: transparent;
+        padding-top: 1px;
+        padding-bottom: 3em;
+        box-shadow: 0;
+    }
+    #navContent {
+        margin-right: 0;
+    }
+    .navbar-menu a.navbar-item {
+        border: 0 !important;
+        background: white;
+        color: var(--color-warning) !important;
+        border-bottom: 1px solid #7510F7 !important;
+    }
+    .navbar-menu a.navbar-item {
+        font-size: .8em;
+        padding-left: 3em;
+    }
+    .navbar-menu a.navbar-item:hover,
+    .navbar-menu a.navbar-item.active {
+        color: #7510F7 !important;
+    }
+    .navbar a {
+        color: black !important;
+    }
+    .navbar i.on-collapse {
+        display: inline;
+    }
+    .burger a {
+        color: var(--color-warning) !important;
+    }
+    #what-i-do-section .card figure {
+        top: -12%;
+        left: 25%;
+        padding: 2% 4%;
+    }
+    #what-i-do-section .card .what-i-do-card-title {
+        font-size: .9em !important;
+    }
+}
+
+@media(max-width: 800px) {
+    .navbar-item img {
+        margin-left: -2em !important;
+    }
+    #display-hero.hero {
+        padding: 1em;
+    }
+    .profile-picture,
+    .profile-picture .profile-group .social-media-icons {
+        margin-left: 10%;
+    }
+    /* About Section */
+    #about-section {
+        margin-top: 18em;
+    }
+    #what-i-do-section .card {
+        margin-top: 4em;
+        padding-bottom: 5em;
+    }
+}
+
+@media(max-width: 768px) {
+    .title.name {
+        font-size: 1em;
+    }
+    .subtitle.description {
+        font-size: .7em;
+        text-align: left;
+    }
+    .btn-resume,
+    .btn-portfolio {
+        font-size: .8em !important;
+    }
+    .social-media-icons {
+        margin: 0 !important;
+    }
+    #about-section {
+        margin-top: 400px;
+    }
+    .about-description h2 {
+        font-size: 1.2em !important;
+    }
+    .about-description .bio {
+        font-size: .8em !important;
+    }
+    #what-i-do-section .card figure {
+        top: -20%;
+        left: 31%;
+        padding: 4% 6%;
+    }
+    #portfolio {
+        grid-template-columns: 1fr;
+    }
+    #like-what-you-see-section #like-what-you-see {
+        font-size: 2.5em;
+    }
+    #like-what-you-see-section #like-what-you-see-desc {
+        font-size: 1.2em;
+    }
+    #like-what-you-see-section #contact-me a {
+        font-size: 1.2em;
+    }
+    #contact-section .subtitle.description {
+        font-size: 1em;
+        text-transform: inherit;
+        text-align: justify;
+        letter-spacing: .05em;
+        line-height: 2em;
+    }
+    #contact-section .contact-info {
+        text-align: left !important;
+    }
+}
+
+@media (max-width: 469px) {
+    #display {
+        height: 700px;
+    }
+    .btn-resume,
+    .btn-portfolio {
+        margin-left: -1em;
+        width: 10em !important;
+    }
+    .btn-resume {
+        left: 25%;
+        top: 62%;
+        width: 50%;
+    }
+    .btn-portfolio {
+        left: 25%;
+        top: 74%;
+    }
+    #contact-section .contact-info {
+        text-align: center !important;
+    }
+}
+
+@media (max-width: 414px) {
+    .navbar-item img {
+        margin-left: -2em;
+    }
+    .title.name {
+        font-size: 1em !important;
+    }
+    .subtitle.description {
+        font-size: .5em;
+    }
+    .profile-picture,
+    .profile-picture .profile-group .social-media-icons {
+        margin-left: 0% !important;
+        margin-top: 10em;
+    }
+    #what-i-do-section .card {
+        margin-bottom: 2em;
+    }
+    /* Portfolio Section */
+    .overlay .title.is-4 {
+        font-size: 1em
+    }
+    .overlay .subtitle.is-6 {
+        font-size: .8em
+    }
+    .overlay a.button,
+    .overlay button.button {
+        font-size: .6em;
+    }
+}
